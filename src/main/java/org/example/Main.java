@@ -3,7 +3,8 @@ package org.example;
 public class Main{
     public static void main(String[] args) {
 
-        System.out.println("Hello world! Saroj kumar");
-        System.out.println("New line added");
+        Utility.printer("Hello world! Saroj kumar");
+        Utility.printer("New line added");
+
     }
 }
